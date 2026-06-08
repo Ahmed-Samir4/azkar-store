@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Keep these files/folders
+!/.gitignore
+!/README.md
+!/STORE-LISTING.md
+!/store-assets/
+!/store-assets/PRIVACY-POLICY.md
