@@ -19,4 +19,4 @@ Extras in this repo
 
 If you found this repo via the store listing, welcome — the privacy policy above contains contact details.
 
-If you want, I can (a) prepare a simple HTML page for GitHub Pages, (b) open and update the contact line with an email you provide, or (c) create the Git repo and push if you give me access tokens. Which would you like next?
+
