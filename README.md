@@ -4,11 +4,9 @@ This repository contains the store-facing assets for the "Azkar" browser extensi
 
 **Included**
 - `store-assets/PRIVACY-POLICY.md` — privacy policy (Arabic + English).
-- `STORE-LISTING.md` — ready-to-paste name, summary, detailed descriptions and privacy practice text for the Chrome Web Store.
 
 **Purpose**
 - Host `PRIVACY-POLICY.md` at a public URL (GitHub repo) and paste that URL into the Chrome Web Store Privacy Policy field.
-- Provide copy for the Store listing so submission is quick and consistent.
 
 **Before you push**
 1. Verify `store-assets/PRIVACY-POLICY.md` contains the correct contact details (already filled).
