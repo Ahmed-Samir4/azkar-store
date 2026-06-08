@@ -1,44 +1,22 @@
-# Azkar — Chrome Extension (store assets)
+# Azkar — Calm azkar, duas & prayer times (store assets)
 
-This repository contains the store-facing assets for the "Azkar" browser extension (v1.8.0). It is prepared for public hosting so you can point the Chrome Web Store to the privacy policy and listing material.
+Azkar is a lightweight browser extension that gently reminds you of azkar and duas while you browse, and provides optional prayer times and reminders. This repository hosts the public-facing assets used for the Chrome Web Store.
 
-**Included**
-- `store-assets/PRIVACY-POLICY.md` — privacy policy (Arabic + English).
+Key highlights
+- Clean floating card with large text, tasbeeh counter, bookmarks and copy.
+- 263 azkar & duas across 8 categories (morning/evening, tasbeeh, prophets' duas, 99 Names, etc.).
+- Prayer times via AlAdhan (optional; location used only to fetch times).
+- Fully local: settings and saved azkar stay on your device (`chrome.storage`).
 
-**Purpose**
-- Host `PRIVACY-POLICY.md` at a public URL (GitHub repo) and paste that URL into the Chrome Web Store Privacy Policy field.
+Privacy
+- The extension does not collect personal data. Location is used only (optionally) to compute prayer times and is sent directly to AlAdhan.
+- Full privacy policy: `https://Ahmed-Samir4.github.io/azkar-store/store-assets/privacy-policy.html`
 
-Note: `STORE-LISTING.md` is included for copy-paste only — do NOT upload it inside the store package. Fill the Web Store listing fields by copying text from `STORE-LISTING.md` in this repo.
+Extras in this repo
+- `store-assets/PRIVACY-POLICY.md` — markdown privacy policy (Arabic + English).
+- `store-assets/privacy-policy.html` — HTML copy intended for GitHub Pages.
+- `STORE-LISTING.md` — ready-to-copy text for the Chrome Web Store fields (do not upload this file to the store).
 
-**Before you push**
-1. Verify `store-assets/PRIVACY-POLICY.md` contains the correct contact details (already filled).
-2. Enable GitHub Pages for this repo (branch: `main`, folder: `/`) to publish the visitor site.
-
-**Recommended Git commands**
-
-```bash
-# from this folder (azkar-store)
-git init
-git add .
-git commit -m "Add store assets: privacy policy and listing"
-# create a public repo on GitHub (via the website) named e.g. azkar-store
-# then push (replace <user> and <repo>):
-git remote add origin git@github.com:<user>/<repo>.git
-git branch -M main
-git push -u origin main
-```
-
-**Privacy policy URL templates**
-- Raw file URL (works immediately after push):
-  `https://raw.githubusercontent.com/Ahmed-Samir4/azkar-store/main/store-assets/PRIVACY-POLICY.md`
-- GitHub Pages (recommended): enable Pages (branch `main`) and the policy will be available at:
-  `https://Ahmed-Samir4.github.io/azkar-store/store-assets/privacy-policy.html`
-
-**What to include in the Chrome Web Store Privacy practices tab**
- - Single-purpose statement and permission justifications are provided in `STORE-LISTING.md` for you to copy into the dashboard (do not upload the file itself).
- - Paste the public Privacy Policy URL after you push.
-
-**Privacy policy URL to use in the Chrome Web Store**
-`https://Ahmed-Samir4.github.io/azkar-store/store-assets/privacy-policy.html`
+If you found this repo via the store listing, welcome — the privacy policy above contains contact details.
 
 If you want, I can (a) prepare a simple HTML page for GitHub Pages, (b) open and update the contact line with an email you provide, or (c) create the Git repo and push if you give me access tokens. Which would you like next?
